@@ -26,7 +26,7 @@ public class JFreePie {
 		dpd.setValue("凯迪拉克", 3456);
 		dpd.setValue("特斯拉", 6875);
 		dpd.setValue("路虎极光", 2345);
-		System.out.println("sdw");
+		System.out.println("nice");
 	JFreeChart chart = ChartFactory.createPieChart3D("2017年7月豪车销量", dpd, true, true, false);
 		
 		PiePlot plot = (PiePlot) chart.getPlot();
